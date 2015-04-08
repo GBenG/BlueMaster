@@ -63,10 +63,12 @@ body {
 	margin-left:24px;
 	padding:11px 14px 11px 14px;
 	border-radius:10px;
+	color:#7A8090;
 }
 
 #menu ul li:hover{
 	background-color:rgba(0, 0, 0, 0.15);
+	color:#FFF;
 }
 
 #menu img{
@@ -77,14 +79,10 @@ body {
 
 #menu a{
 	text-decoration:none;
-	color:#7A8090;
 	font-weight:700;
 	font-size:0.95em;	
 }
 
-#menu a:hover{
-	text-decoration:none;
-	color:#FFF;
 }
 
 #container {
