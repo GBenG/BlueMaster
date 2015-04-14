@@ -41,6 +41,8 @@ body {
 	width:1140px;
 }
 
+/*////////////////////////////// HEADER //////////////////////////////*/
+
 #header {
 	background:url(images/header_slice.png) repeat-x;
 	height:59px;
@@ -97,7 +99,7 @@ body {
 	padding:5px 5px 5px 0;
 }
 
-/*/////////////// MENU ///////////////*/
+/*////////////////////////////// MENU //////////////////////////////*/
 
 #menu {
 	height:108px;
@@ -139,6 +141,8 @@ body {
 	text-shadow: 1px 1px 2px black; /* Параметры тени */	
 }
 
+/*////////////////////////////// CONTENT //////////////////////////////*/
+
 #container {
 	border:10px solid transparent;
 	-webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.15); 
@@ -148,6 +152,8 @@ body {
 	width:948px;
 	margin:20px auto;
 }
+
+/*////////////////////////////// FOOTER //////////////////////////////*/
 
 #footer {
 	margin-top:40px;
@@ -164,4 +170,54 @@ body {
 	background:#040507;
 	border-top:1px #181F31 solid;
 	height:60px;
+}
+
+#footer_top {
+	background:#0F131F;
+	border-bottom:1px #040507 solid;
+	height:224px;	
+}
+
+#footer_top div{
+	border:#F00 1px solid;
+	display:inline-block;
+	vertical-align:top;	
+	margin:34px 26px 31px 26px;	
+}
+
+#footer_top h3{
+	color:#8C94AC;
+	font-size:16px;
+	font-weight:900;
+	padding-left:0px;	
+}
+
+.f-list:first-child{
+	margin-left:70px !important;	
+}
+
+.f-list{
+	background:#06F;	
+}
+
+#f-gallery {
+/*	background-color:#FF6;	*/
+}
+
+#f-gallery table{
+	width:245px;
+	/*background-color:#039;*/
+	border:none;
+	margin:0 5px 0 5px;
+}
+
+#f-gallery table img{
+	margin:5px;
+}
+
+#f-twitter {
+	float:right;
+	margin-right:70px !important;
+	width:304px;
+	background:#033;	
 }
