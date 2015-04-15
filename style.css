@@ -195,11 +195,16 @@ body {
 .f-list:first-child{
 	margin-left:70px !important;	
 }
-
+/*////////////// F-LIST //////////////*/
 .f-list{
 	color:#535867;
+	font-size:13px;
 }
 
+.f-list ul li{
+
+}
+/*////////////// F-GALLERY //////////////*/
 #f-gallery {
 	width:253px;
 	font-size:0px;
@@ -221,7 +226,7 @@ body {
 .fgi_right {
 	margin-right:0px;
 }
-
+/*////////////// F-TWITTER //////////////*/
 #f-twitter {
 	float:right;
 	margin-right:70px !important;
