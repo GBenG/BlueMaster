@@ -161,13 +161,16 @@ body {
 #footer_top {
 	background:#0F131F;
 	border-bottom:1px #040507 solid;
-	height:224px;	
+	height:224px;
 }
 
 #footer_bot {
 	background:#040507;
 	border-top:1px #181F31 solid;
 	height:60px;
+	line-height:60px;
+	color:#6A7796;
+	font-size:11px;	
 }
 
 #footer_top {
@@ -282,4 +285,37 @@ body {
 
 #f-twitter a:hover{
 	color:#FFF;
+}
+/*////////////// FOOTER BOTTOM //////////////*/
+
+#footer_bot p{
+	display:inline-block;
+	float:left;
+	margin-left:66px;
+}
+
+#footer_bot ul{
+	float:right;
+	margin-right:66px;
+}
+
+#footer_bot ul li{
+	display:inline-block;
+	border-left:1px solid #6A7796;
+	line-height:10px;
+	padding:0 10px 0 10px;
+}
+
+#footer_bot ul li:first-child{
+	border-left:none;
+}
+
+#footer_bot a{
+	text-decoration:none;
+	color:#6A7796;
+}
+
+#footer_bot a:hover{
+	text-decoration:none;
+	color:#9AA3B9;
 }
