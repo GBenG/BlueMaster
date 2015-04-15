@@ -46,7 +46,7 @@ body {
 	height:59px;
 }
 
-#header a {
+#header_left a {
 	display:inline-block;
 	text-decoration:none;
 	color:#6A87A3;
@@ -57,6 +57,10 @@ body {
 
 #header a:first-child{
 	border-left:none;
+}
+
+#header a:hover{
+	color:#98AFC5;
 }
 
 #header_left {
@@ -76,6 +80,9 @@ body {
 
 #header_right img{
 	margin:8px 8px 8px 0;
+}
+#header_right img:hover{
+	-webkit-box-shadow: 0px 0px 15px -1px #FFF; 
 }
 
 #search {
