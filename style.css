@@ -76,32 +76,44 @@ body {
 #header_right{
 	float:right;
 	margin:10px 70px 10px 0;
+	height:28px;
+	position:relative;
 }
 
 #header_right img{
 	margin:8px 8px 8px 0;
 }
 #header_right img:hover{
-	-webkit-box-shadow: 0px 0px 15px -1px #FFF; 
+	-webkit-box-shadow: 0px 0px 15px -1px #FFF; /*Красивая подсветка социалок при наведении*/
 }
 
-#search {
+#search { /*Стиль формы ввода для поиска*/
 	float:right;
-	background-color:#111213;
+	background:url(images/search_sl.png) #111213 repeat-x; /*Фон для инпута*/
 	border:1px solid #292D30;
 	border-radius:10px;
-	width:184px;
-	height:31px;
-	color:#485766;
+	sizr:188px; /*Ширина формы ввода*/
+	height:26px;
+	color:#485766;	/*Цвет текста для ввода*/
 	line-height:31px;
 	padding-left:10px;
 	margin-left:8px;	
 }
 
-#search img{
-	margin:0px;
+#search_btn{ /*Стиль для стилизованной кнопки поиск*/
+	background:url(images/look.png); /*базовая картинка для анимашки кнопки*/
+	height:25px;
+	width:25px;
+	display:block;
 	float:right;
-	padding:5px 5px 5px 0;
+	margin:0px;
+	position:absolute; /*Позиционирование абсолютное. Чтобы натянуть кнопку поверх инпута*/
+	right:3px;
+	top:2px;
+}
+
+#search_btn:hover{
+	background:url(images/look_h.png); /*анимашка при наведении на кнопку*/
 }
 
 /*////////////////////////////// MENU //////////////////////////////*/
