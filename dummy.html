@@ -26,10 +26,11 @@
             	<a href="#"><img alt="" src="images/rss.png"></a>
                 <a href="#"><img alt="" src="images/fb.png"></a>
                 <a href="#"><img alt="" src="images/tw.png"></a>     
-            	<div id="search">
-                	Поиск...
-                    <img alt="" src="images/look.png">
-                </div><!--end search-->
+            	
+                <input type="text" id="search" value="Поиск..." onClick=" this.value=''" onBlur="this.value='Поиск...'">
+                
+                <a href="#" id="search_btn"></a>
+                
             </div><!--end header_left-->
         
         </div><!--end header-->
