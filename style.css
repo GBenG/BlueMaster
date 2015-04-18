@@ -179,6 +179,27 @@ body {
 	height:43px;
 	width:948px;
 	margin:0 auto;
+	background-image:url(images/shadow.png);
+	background-repeat:no-repeat;
+	line-height:43px;
+}
+
+#sl_nav{
+	margin:0 auto;
+	width:105px;
+	font-size:0px;	
+}
+
+#sl_nav a{
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background-image:url(images/c_butt.png);
+	margin:0 3px;	
+}
+
+#sl_nav a:hover{
+	background-image:url(images/c_butt_h.png);	
 }
 
 /*////////////////////////////// CONTAINER //////////////////////////////*/
@@ -193,7 +214,6 @@ body {
 	display:inline-block;
 	height:368px;
 	width:285px;
-	background:rgba(0, 0, 0, 0.15);
 	margin:20px 0 20px 20px;
 	vertical-align:top;
 }
@@ -216,7 +236,9 @@ body {
 }
 
 .trib_con {
-	padding:19px;	
+	padding:19px;
+	background:rgba(0, 0, 0, 0.15);
+	height:284px;	
 }
 
 .trib_con img{
@@ -252,6 +274,32 @@ body {
 	background-color:#3A9FCF;
 }
 
+#contact {
+	display:inline-block;
+	height:232px;
+	width:285px;
+	background:rgba(0, 0, 0, 0.15);
+	vertical-align:top;
+}
+
+#social {
+	display:inline-block;
+	height:33px;
+	width:239px;
+	background:rgba(0, 0, 0, 0.15);
+	margin-top:9px;
+	padding:24px;
+	vertical-align:bottom;
+	font-size:0px;
+}
+
+#social a {
+	margin-right:11px;
+}
+
+#social a:last-child {
+	margin-right:0px;
+}
 /*////////////////////////////// FOOTER //////////////////////////////*/
 
 #footer {
