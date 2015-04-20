@@ -205,6 +205,15 @@ body {
 /*////////////////////////////// CONTAINER //////////////////////////////*/
 
 #container {
+	-webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.15); 
+	background:#EAFBFF;
+	height:100px;
+	width:908px;
+	margin:20px auto;
+	background-color:#FFF;
+}
+
+.contant {
 	background:rgba(0, 0, 0, 0.15);
 	width:948px;
 	margin:0 auto;
