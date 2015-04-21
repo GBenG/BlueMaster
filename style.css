@@ -180,10 +180,9 @@ body {
 
 .container {
 	-webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.15); 
-	background:#EAFBFF;
+	background-color:#EEF0F5;
 	width:908px;
 	margin:20px auto;
-	background-color:#FFF;
 	overflow:hidden;
 }
 
@@ -320,10 +319,56 @@ body {
 
 /*////////////// TEXT_ARRY //////////////*/
 .text_arry {
-	width:642px;
-	background-color:#D9ECFF;	
-	height:100px;
+	width:600px;	
 	float:left;
+	padding:21px;
+	font-size:12px;
+	background-color:#FFF;	
+}
+
+.text_arry img{
+	padding:3px;
+	border:1px solid #CED1DA;
+	background-color:#EEF0F5;
+	margin:20px 0;	
+}
+
+.text_arry p{
+	margin-bottom:20px;	
+}
+
+.text_arry q{
+	display:block;
+	padding:12px;
+	background-color:#EEF0F5;
+	border:#CED1DA 1px solid;
+	quotes: "&#34" "&#34"; /* Кавычки в виде ковычек (") */
+	font-style:italic;
+	font-weight:500;
+	color:#747C93;
+	margin-bottom:20px;
+}
+
+.txta_h {
+	border-bottom:1px #84A1AF dotted;
+	color:#4D5467;
+	font-size:16px;
+	font-weight:700;
+	height:37px;
+	margin-top:-11px;
+}
+
+.txta_h img{
+	border:none;
+	background:none;
+	float:left;
+	margin:7px 0;
+	padding:0px;	
+}
+
+.txta_h p{
+	line-height:37px;
+	margin-left:35px;
 }
 /*////////////// SIDEBAR //////////////*/
 .sidebar {
