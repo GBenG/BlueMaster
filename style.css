@@ -180,7 +180,7 @@ body {
 
 .container {
 	-webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.15); 
-	background-color:#EEF0F5;
+	background-color:#FFF;
 	width:908px;
 	margin:20px auto;
 	overflow:hidden;
@@ -329,8 +329,7 @@ body {
 .text_arry img{
 	padding:3px;
 	border:1px solid #CED1DA;
-	background-color:#EEF0F5;
-	margin:20px 0;	
+	background-color:#EEF0F5;	
 }
 
 .text_arry p{
@@ -356,6 +355,7 @@ body {
 	font-weight:700;
 	height:37px;
 	margin-top:-11px;
+	margin-bottom:20px;
 }
 
 .txta_h img{
@@ -375,6 +375,9 @@ body {
 	width:266px;
 	background-color:#EEF0F5;
 	float:right;
+	height:100%;
+	margin-bottom:-6000px;
+	padding-bottom:6000px;
 }
 
 .side_h {
@@ -453,6 +456,86 @@ body {
 	color:#444D68;
 }
 
+.side_contact {
+	padding:22px;
+	font-size:12px;	
+}
+
+.side_contact p{
+	display:inline-block;
+	margin:0 0 18px 19px;	
+	width:165px;
+	color:#6A7796;
+	font-size:12px;
+}
+
+.side_contact p:first-line{
+	color:#444D68;
+	font-weight:800;
+	font-size:14px;
+}
+
+.side_contact img{
+	border-radius:5px;
+}
+/*////////////////////////////// CONTACTs //////////////////////////////*/
+.submit {
+	float:left;
+	width:269px;
+	clear:both;
+}
+
+.container h3{
+	font-size:14px;
+	font-weight:800;
+	margin:5px 0;
+}
+
+.submit input{
+	width:246px;
+	background-color:#EEF0F5;
+	border:1px solid #CED1DA;
+	height:37px;
+	font-size:18px;
+	padding:0 10px;
+	font-weight:normal;
+}
+
+.submit textarea{
+	background-color:#EEF0F5;
+	border:1px solid #CED1DA;
+	width:577px;
+	font-size:18px;
+	padding:10px;
+}
+
+.map {
+	float:right;	
+}
+
+.button_send {
+	display:inline-block;
+	float:right;
+	margin:0px;
+	background-color:#11719F;
+	padding:10px;
+	font-size:12px;
+}
+
+.button_send a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.button_send:hover {
+	background-color:#3A9FCF;
+}
+
+.area {
+	margin-top:10px;
+	clear:both;
+	width:600px;	
+}
 /*////////////////////////////// FOOTER //////////////////////////////*/
 
 .footer {
