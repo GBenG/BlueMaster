@@ -359,8 +359,8 @@ body {
 }
 
 .txta_h img{
-	border:none;
-	background:none;
+	border:none !important;
+	background:none !important;
 	float:left;
 	margin:7px 0;
 	padding:0px;	
@@ -369,6 +369,37 @@ body {
 .txta_h p{
 	line-height:37px;
 	margin-left:35px;
+}
+/*////////////// GALLERY //////////////*/
+.gal_arry {
+	padding:21px;
+	font-size:0px;	
+}
+
+.gal_arry img{
+	padding:4px;
+	border:1px solid #CED1DA;
+	background-color:#EEF0F5;	
+}
+
+.dummy {
+	display:inline-block;
+	padding:11px;
+}
+
+.gallery {
+	display:inline-block;
+	margin-bottom:22px;		
+}
+
+.gallery img{
+		-webkit-transition: transform 0.2s ease-out 0.2s;
+		-moz-transition: transform 0.2s ease-out 0.2s;
+     	-o-transition: transform 0.2s ease-out 0.2s;
+     	transition: transform 0.2s ease-out 0.2s;
+}
+.gallery img:hover{
+		transform:scale(1.1,1.1) rotate(2deg);
 }
 /*////////////// SIDEBAR //////////////*/
 .sidebar {
