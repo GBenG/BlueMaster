@@ -252,6 +252,10 @@ body {
 	text-decoration:none;
 }
 
+.tb_button:last-child { /*Прижимаем последнюю кнопку к правому краю*/
+	margin:30px 0 0 0;
+}
+
 .tb_button:hover {
 	background-color:#3A9FCF;
 }
@@ -464,6 +468,7 @@ body {
 	padding:10px;
 	border:1px solid #CED1DA;
 	background-color:#EEF0F5;
+	font-size:0px;
 }
 
 .page_menu a{
@@ -490,7 +495,8 @@ body {
 .num_p {
 	display:inline-block;
 	height:33px;
-	width:185px;
+/*	width:185px;*/
+	width:inherit;
 	vertical-align:top;	
 }
 
@@ -523,6 +529,53 @@ body {
 .next_p:hover {
 	background-color:#11719F;
 }
+/*////////////// BLOG //////////////*/
+.blog_post {
+	border-bottom:1px #84A1AF dotted;
+	margin-bottom:20px;	
+}
+
+.blog_post h1 {
+	color:#1B8BB4;
+	font-size:20px;
+	font-weight:800;
+}
+
+.post_date {
+	font-size:10px;	
+}
+
+.post_date a {
+	color:#1B8BB4;
+}
+
+.post_date a:hover {
+	color:#256B85;
+}
+
+.blog_prew_txt {
+	margin:20px 0 0 0 !important;	
+}
+
+.tag_but {
+	margin-bottom:20px;
+	overflow:hidden; /* Избавляем блоки от наползания*/
+}
+
+.tag_but p{
+	display:inline-block;
+	float:left;
+	background:url(images/tag.png) no-repeat left;
+	padding-left:30px;
+	margin:40px 0 0 0;	
+	/*width:372px;*/
+}
+
+.blog_bt {
+	display:inline-block;
+	float:right;
+}
+
 /*//////////////////////////// SIDEBAR ////////////////////////////*/
 .sidebar {
 	width:266px;
